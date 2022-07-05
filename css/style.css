@@ -34,6 +34,17 @@ a{
     padding: 5px 10px;
 }
 
+
+/* row layout */
+.row{
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.col{
+    flex-grow: 1;
+    flex-basis: calc(100% / 4);
+}
+
 /* nav bar */
 nav{
     background-color: #0084FD;
@@ -75,26 +86,22 @@ nav{
 
 /*FEATUERES SECTION  */
 .features{
-    padding: 50px 0 100px 0;
+    padding: 50px 20px 100px 20px;
 }
-.row{
-    gap: 1.5rem;
-    flex-wrap: wrap;
-}
+
 .row .phone-col{
     flex-basis:  calc(100% / 2 + 100px);
 }
 
-.col{
-    flex-grow: 1;
-    flex-basis: calc(100% / 4);
-}
 .card{
-    background-color: #B5DDFF;
     border-radius: 15px;
+}
+
+.features .card{
+    background-color: #B5DDFF;
     min-height: 380px;
 }
-.card p {
+.features .card p {
     line-height: 1.9;
 }
 .phone-text{
@@ -110,7 +117,7 @@ nav{
     padding: 30px;
     padding-bottom: 0px;
 }
-.card h4{
+.features .card h4{
     color: #0084FD;
     font-size: 21px;
 }
@@ -174,7 +181,7 @@ FEATURES SECTION MOBILE
 }
 
 
-/* Planning Section */
+/* PLANNING SECTION */
 
 .planning{
     background-color: #9792E4;
@@ -237,7 +244,11 @@ PLANNING SECTION MOBILE
 *************************************************/
 
 
-/* Testimonials section */
+/* TESTIMONIAL SECTION*/
+.testimonials{
+    padding: 0 20px;
+    margin-bottom: 100px;
+}
 .testimonials__title{
     flex-direction: column;
     text-align: center;
@@ -288,10 +299,52 @@ TESTIMONIALS SECTION MOBILE
 
 
 
-/* Benefits section */
+/* BENEFITS SECTION */
+.benefits{
+    background-color: #9792E4;
+    padding: 0 20px;
+}
+.benefits .container{
+    padding-bottom: 50px;
+}
+.benefits h2{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    padding: 50px 0;
+}
+.benefits .card{
+    background-color: white;
+}
+.benefits .text__card{
+    align-items: flex-start;
+    text-align: left;
+}
+.benefits .card h5, .benefits .card h4{
+    color: #9792E4;
+}
+.benefits .card h5{
+    font-size: 68px;
+}
+.benefits .card h4{
+    font-size: 21px;
+}
+
+.purple-button{
+    background-color: #9792E4;
+    padding: 8px 35px;
+}
+
+ /************************************************
+BENEFITS SECTION TABLET
+*************************************************/
 
 
+/************************************************
+BENEFITS SECTION MOBILE
+*************************************************/
 
+/* ABOUT US SECTION */
 
 
 /* mobile flex basis 100%, desktop flax basis 0 */
