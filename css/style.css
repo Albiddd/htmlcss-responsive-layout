@@ -91,11 +91,11 @@ nav{
 .card{
     background-color: #B5DDFF;
     border-radius: 15px;
-    font-size: 10px;
+    
 }
 .card p {
-    font-size: 12px;
-    line-height: 2;
+    
+    line-height: 1.9;
 }
 .phone-text{
     flex-direction: column;
@@ -104,19 +104,19 @@ nav{
     padding: 20px;
 }
 .phone-img{
-    flex-basis: 44%;
+    flex-basis: 50%;
     align-self: flex-end;
     padding: 50px;
     padding-bottom: 0px;
 }
 .card h4{
     color: #0084FD;
-    font-size: 14px;
+    font-size: 21px;
 }
 .blue-button{
     background-color: #0084FD;
     padding: 10px 30px;
-    font-size: 14px;
+    
 }
 
 .blue-button i {
@@ -135,7 +135,7 @@ nav{
     font-size: 8em;
 }
 .text__card p {
-    line-height: 2;
+    line-height: 1.9;
 }
 
 /* mobile flex basis 100%, desktop flax basis 0 */
