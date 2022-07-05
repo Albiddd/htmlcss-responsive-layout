@@ -25,7 +25,8 @@ a{
     margin: 0 auto;
 }
 .container-small{
-
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .button{
@@ -91,10 +92,9 @@ nav{
 .card{
     background-color: #B5DDFF;
     border-radius: 15px;
-    
+    min-height: 380px;
 }
 .card p {
-    
     line-height: 1.9;
 }
 .phone-text{
@@ -103,10 +103,11 @@ nav{
     flex-basis: 50%;
     padding: 20px;
 }
+
 .phone-img{
     flex-basis: 50%;
     align-self: flex-end;
-    padding: 50px;
+    padding: 30px;
     padding-bottom: 0px;
 }
 .card h4{
@@ -137,5 +138,106 @@ nav{
 .text__card p {
     line-height: 1.9;
 }
+
+/************************************************
+FEATURES SECTION TABLET
+*************************************************/
+@media screen and (max-width: 768px) {
+    
+    .features .container{
+        padding: 0 1.5rem;
+    }
+    .phone-card{
+        flex-direction: column;
+    }
+    .phone-img{
+        max-width: 80%;
+        align-self: flex-start;
+    }
+}
+
+/************************************************
+FEATURES SECTION MOBILE
+*************************************************/
+@media screen and (max-width: 480px) {
+    
+    .row{
+        flex-direction: column;
+    }
+    .phone-card{
+        flex-direction: column;
+    }
+    .phone-img{
+        max-width: 80%;
+        align-self: flex-start;
+    }
+}
+
+
+/* Planning Section */
+
+.planning{
+    background-color: #9792E4;
+}
+.planning .row{
+    padding: 80px 0 50px 0;
+    gap: 0px;
+}
+.planning .col{
+
+    flex-basis: 50%;
+}
+.planning-card{
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    color: white;
+}
+.planning-card img{
+    margin-bottom: 30px;
+}
+.planning h4{
+    font-size: 21px;
+}
+.dev-col{
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+.dev-card{
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px 50px;
+    gap: 15px;
+}
+.dev-card p{
+    font-style: italic;
+}
+.dev-card i{
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 10px 13px;
+}
+.planning p{
+    line-height: 1.9;
+}
+
+
+/************************************************
+PLANNING SECTION TABLET
+*************************************************/
+
+
+/************************************************
+PLANNING SECTION MOBILE
+*************************************************/
+
+
+/* Testimonials section */
+
 
 /* mobile flex basis 100%, desktop flax basis 0 */
