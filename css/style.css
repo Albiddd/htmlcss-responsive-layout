@@ -238,6 +238,60 @@ PLANNING SECTION MOBILE
 
 
 /* Testimonials section */
+.testimonials__title{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+.testimonials__title h2{
+    color: #9792E4;
+    font-size: 42px;
+}
+.testimonials-card{
+    background-color: #9792E4;
+    border-radius: 30px;
+    padding: 25px 15px;
+    color: white;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.testimonials-card img{
+    width: 20%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial-quote{
+   padding-left: 40px;
+}
+.testimonial-quote p{
+    margin-bottom: 20px;
+}
+.testimonial-quote p i{
+    font-size: 20px;
+    padding: 6px;
+}
+.testimonial-quote span{
+    font-weight: 700;
+}
+
+ /************************************************
+TESTIMONIALS SECTION TABLET
+*************************************************/
+
+
+/************************************************
+TESTIMONIALS SECTION MOBILE
+*************************************************/
+
+
+
+/* Benefits section */
+
+
+
 
 
 /* mobile flex basis 100%, desktop flax basis 0 */
