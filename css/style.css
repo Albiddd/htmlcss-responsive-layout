@@ -6,6 +6,7 @@
 }
 
 img{
+    display: block;
     max-width: 100%;
 }
 ul,ol,menu{
@@ -71,5 +72,70 @@ nav{
 }
 
 
+/*FEATUERES SECTION  */
+.features{
+    padding: 50px 0 100px 0;
+}
+.row{
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.row .phone-col{
+    flex-basis:  calc(100% / 2 + 100px);
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: calc(100% / 4);
+}
+.card{
+    background-color: #B5DDFF;
+    border-radius: 15px;
+    font-size: 10px;
+}
+.card p {
+    font-size: 12px;
+    line-height: 2;
+}
+.phone-text{
+    flex-direction: column;
+    gap: 30px;
+    flex-basis: 50%;
+    padding: 20px;
+}
+.phone-img{
+    flex-basis: 44%;
+    align-self: flex-end;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+.card h4{
+    color: #0084FD;
+    font-size: 14px;
+}
+.blue-button{
+    background-color: #0084FD;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.blue-button i {
+    padding-right: 6px;
+}
+
+.text__card{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+}
+.text__card i {
+    color: #0084FD;
+    font-size: 8em;
+}
+.text__card p {
+    line-height: 2;
+}
 
 /* mobile flex basis 100%, desktop flax basis 0 */
