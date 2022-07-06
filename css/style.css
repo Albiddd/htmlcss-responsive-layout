@@ -45,7 +45,7 @@ a{
     flex-basis: calc(100% / 4);
 }
 
-/* nav bar */
+/* NAV BAR */
 nav{
     background-color: #0084FD;
     font-size: 14px;
@@ -54,6 +54,7 @@ nav{
 .main-nav{
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 .main-nav ul{
     display: flex;
