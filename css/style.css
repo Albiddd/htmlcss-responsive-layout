@@ -217,7 +217,7 @@ FEATURES SECTION MOBILE
     justify-content: flex-end;
 }
 .dev-card{
-    width: 75%;
+    width: 90%;
     flex-direction: column;
     align-items: center;
     text-align: center;
