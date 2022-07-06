@@ -45,7 +45,7 @@ a{
     flex-basis: calc(100% / 4);
 }
 
-/* NAV BAR */
+/* NAV */
 nav{
     background-color: #0084FD;
     font-size: 14px;
@@ -96,6 +96,7 @@ nav{
 
 .card{
     border-radius: 15px;
+    height: 100%;
 }
 
 .features .card{
