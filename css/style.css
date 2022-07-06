@@ -90,7 +90,8 @@ nav{
 }
 
 .row .phone-col{
-    flex-basis:  calc(100% / 2 + 100px);
+    flex-basis:  calc(100% / 2 + 1.5rem);
+    flex-grow: 2;
 }
 
 .card{
